@@ -1,0 +1,13 @@
+[project]
+name = "adaptive-ctrl-handbook"
+version = "0.1.0"
+description = "Interactive Jupyter handbook for learning adaptive control with plots."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipywidgets",
+    "jupyterlab",
+    "matplotlib",
+    "numpy",
+    "scipy",
+]

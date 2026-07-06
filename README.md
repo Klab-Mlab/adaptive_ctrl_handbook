@@ -1,4 +1,4 @@
-﻿# adaptive_ctrl_handbook
+# adaptive_ctrl_handbook
 
 適応制御を「問題を解きながら、プロットを見て納得する」ためのJupyterハンドブックです。
 
@@ -24,10 +24,8 @@
 ## 使い方
 
 ```bash
-python -m venv .venv
-. .venv/Scripts/activate  # Windows PowerShellでは: .venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-jupyter lab
+uv sync
+uv run jupyter lab
 ```
 
 ノートブックを上から順に実行してください。各章の最初にある「考える問い」に、まず自分の予想を書いてからプロットを見ます。
