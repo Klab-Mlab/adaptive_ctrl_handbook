@@ -10,6 +10,11 @@
   - シミュレーションを動かす
   - プロットを見て考察する
   - パラメータを変えて再実験する
+- `notebooks/mrac_l1_adaptive_control_problem_workbook.ipynb`
+  - MRACの理想パラメータと誤差ダイナミクスを導出する
+  - Lyapunov設計、PE条件、入力ゲイン符号を確認する
+  - 正規化、sigma/e-modification、projectionをプロットで比較する
+  - 離散時間実装の `Ts*Gamma` とL1適応制御への橋渡しを学ぶ
 
 ## 扱うテーマ
 
@@ -20,6 +25,8 @@
 5. 射影によるパラメータ暴走の抑制
 6. RLSによるオンライン同定
 7. 同定結果を使った単純な適応制御
+8. MRACのLyapunov導出とPE条件
+9. 離散時間MRACとL1適応制御の考え方
 
 ## 使い方
 
