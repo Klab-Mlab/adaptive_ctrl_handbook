@@ -1,0 +1,33 @@
+﻿# adaptive_ctrl_handbook
+
+適応制御を「問題を解きながら、プロットを見て納得する」ためのJupyterハンドブックです。
+
+## 内容
+
+- `notebooks/adaptive_control_problem_workbook.ipynb`
+  - 問いに答える
+  - 予想を書く
+  - シミュレーションを動かす
+  - プロットを見て考察する
+  - パラメータを変えて再実験する
+
+## 扱うテーマ
+
+1. 一次遅れプラントと規範モデル
+2. MIT則によるMRACの基本形
+3. 学習率と入力信号が収束に与える影響
+4. 正規化適応則
+5. 射影によるパラメータ暴走の抑制
+6. RLSによるオンライン同定
+7. 同定結果を使った単純な適応制御
+
+## 使い方
+
+```bash
+python -m venv .venv
+. .venv/Scripts/activate  # Windows PowerShellでは: .venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+jupyter lab
+```
+
+ノートブックを上から順に実行してください。各章の最初にある「考える問い」に、まず自分の予想を書いてからプロットを見ます。
